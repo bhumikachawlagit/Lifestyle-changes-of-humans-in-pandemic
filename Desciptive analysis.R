@@ -68,7 +68,38 @@ detach(v)
 mean(age)
 mean(age,trim = 0.1)
 
+se_of_mean = sd(age)/sqrt(length(age))
 library(WRS2)
+
+se_of_trimmed_mean = trimse(age,tr = 0.1)
+
+#Thus, se of normal mean is extremely huge as compared to trimmed mean.
+#Thus, according to the trimmed mean the average age of our sample is
+#19.175 ~ 19 yrs.
+
+#Variance:
+
+var(age)
+
+#OMG!
+#As the variance in our ages is extremely large, our mean has a larger SE
+#as compared to the SE of the trimmed mean.
+
+
+#Finally, median:
+
+median(age)
+
+#As expected.
+#This is because our sample is mostly distributed in that region only.
+
+#Thus, concluding the descriptive analysis of our data here, we have 
+#successfully described the age factor of our sample, further, in 
+#the next section of analysis i.e. exploratory data analysis, we'll
+#try to find relationships between age and all other variables in our
+#survey.
+
+#Thank You.
 
 
 
