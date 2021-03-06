@@ -82,6 +82,10 @@ data$`How many hours do you study/work now ?`[data$`How many hours do you study/
 
 #Natural variation, will use mean.
 
+#We also come to know from the histograms above that, distributions of sleep 
+#durations, online/playing durations and study/work durations are not normally 
+#distributed.
+
 ##Next part is to calculate pearson's correlation coefficient for given data
 
 
@@ -114,6 +118,8 @@ cor.test(data1$`study b`,data1$`study n`)
 #As this comes out to be significantly different from zero, as indicated by the 
 #pvalue < 0.05 and the 95% CI not containing zero, we can conclude that,
 #study/work before and after have significant positive correlation with each other.
+
+
 
 
 
