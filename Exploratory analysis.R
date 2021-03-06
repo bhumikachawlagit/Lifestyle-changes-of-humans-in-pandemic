@@ -104,10 +104,17 @@ cor.test(data1$`sleep b`,data1$`sleep n`)
 
 cor.test(data1$`online b`,data1$`online n`)
 
-##As this comes out to be significantly different from zero, as indicated by the 
+#As this comes out to be significantly different from zero, as indicated by the 
 #pvalue < 0.05 and the 95% CI not containing zero, we can conclude that,
 #online before and after have significant positive correlation with each other.
 
 
-cor.test(data1$`study b`,)
+cor.test(data1$`study b`,data1$`study n`)
+
+#As this comes out to be significantly different from zero, as indicated by the 
+#pvalue < 0.05 and the 95% CI not containing zero, we can conclude that,
+#study/work before and after have significant positive correlation with each other.
+
+
+
 
