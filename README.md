@@ -1,11 +1,11 @@
-# Lifestyle-changes-of-humans-in-pandemic
+**Lifestyle-changes-of-humans-in-pandemic**
 This repository has been created to analyse the changes in the lifestyle of humans during pandemic. 
 
-#Objective:
+**Objective**:
 To find whether there has been a significant change in the lifestyle of humans
 during pandemic of COVID-19.
 
-#The following questions were asked in the survey:
+**The following questions were asked in the survey**:
 
 * 1 Full Name
 * 2 Age
